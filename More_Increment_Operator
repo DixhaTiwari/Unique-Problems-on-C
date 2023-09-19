@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int i=6;
+printf("The value of i++ is %d\n",i++);
+
+    i+=10;
+   printf("The value of i is %d\n",i);
+
+// i++; -----> Pehle print then increment
+//++i; -----> Pehle increment then print
+         return 0;
+}
